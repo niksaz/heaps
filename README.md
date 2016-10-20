@@ -162,7 +162,6 @@ Comparisons:   213222809      213222809      114407606
 Insert time:   7.717          6.560          6.379          
 Extract time:  0.000          0.000          0.000          
 
-Now it is clear that the best way to extract minimal element and inserting new ones in practice is a self-written binary heap. 
-Nevertheless, MinMaxHeap wins when an input is in descending order, because it climbs with double speed, thus making less comparisons and speending less time. It is demonstrated in the last log.
-Also the interesting thing here is that the standard PriorityHeap and the self-written BinaryHeap make an equal number of comparisons. :)
-
+Now it is clear that the best way to extract minimal element and inserting new ones in practice is a self written binary heap. 
+Nevertheless, MinMaxHeap wins when an input is in descending order, because it climbs with double speed, thus making less comparisons and spending less time. It is demonstrated in the last log.
+Also the interesting thing here is that the standard PriorityHeap and the self written BinaryHeap make the equal number of comparisons.
